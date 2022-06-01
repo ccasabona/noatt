@@ -2,6 +2,18 @@
 
 <h1>Contents</h1>
 
+<p>
+App to demonstrate loss of Action Text attachments after upgrading turbo-rails from 1.0.1 to 1.1.1.
+</p>
+
+<p>
+First, attach the image usinf turbo-rails 1.0.1.  Then update to v 1.1.1 and try to show the obejct.  The attachment does not show.
+<p>
+
+<p>
+After updating to 1.1.1, you can attach another image and the new attachments shows and the old one does not show.
+</p>
+
 <div id="contents">
   <% @contents.each do |content| %>
     <%= render content %>
